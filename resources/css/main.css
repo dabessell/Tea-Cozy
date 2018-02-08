@@ -9,7 +9,8 @@ body {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;	
+	opacity: 0.9;
+	margin: 0;	
 }
 
 /* BEGIN HEADER */
@@ -109,6 +110,10 @@ header {
 }
 
 /* END FEATURED TEA SECTION */
+
+/* BEGIN LOCATIONS SECTION */
+
+
 
 
 
