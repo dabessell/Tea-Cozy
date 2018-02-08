@@ -2,5 +2,38 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+#nav {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#nav a {
+	padding: 15px;
+	text-decoration: underline;
 }
 
