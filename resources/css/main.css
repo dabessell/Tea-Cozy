@@ -2,12 +2,17 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+body {
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
+	opacity: 0.9;	
 }
+
+/* BEGIN HEADER */
 
 .header {
 	display: flex;
@@ -34,6 +39,45 @@
 
 #nav a {
 	padding: 15px;
+	color: seashell;
 	text-decoration: underline;
 }
 
+/* END HEADER */
+
+#main {  /* MAIN BODY */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+/* BEGIN MISSION SECTION */
+
+#mission {
+	display: flex;
+	height: 700px;
+	width: 1200px;
+	align-items: center;
+	background-image: url("../images/img-mission-background.jpg");
+	background-repeat: no-repeat;
+}
+
+#missionText {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+}
+
+/* END MISSION SECTION */
+
+/* BEGIN FEATURED TEA SECTION */
+
+#featuredTea {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1000px;
+}
