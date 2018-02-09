@@ -113,7 +113,69 @@ header {
 
 /* BEGIN LOCATIONS SECTION */
 
+#locations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 75px;
+	background-image: url("../images/img-locations-background.jpg");
+	padding-bottom: 50px;
+}
+
+#locationContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	opacity: 1;
+}
+
+.address h3 {
+	margin-bottom: 30px;
+}
+
+.address span {
+	margin-bottom: 30px;
+}
 
 
+/* END LOCATIONS SECTION */
 
+/* BEGIN FOOTER SECTION */
 
+#contactInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	margin: auto;
+	height: 200px;
+}
+
+#contactInfo span {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: .85em;
+}
+
+#copyright {
+	margin-left: 20px;
+}
+
+/* END FOOTER SECTION */
