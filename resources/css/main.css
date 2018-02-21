@@ -179,3 +179,13 @@ header {
 }
 
 /* END FOOTER SECTION */
+
+@media screen only and (max-width: 470px) {
+	#mission {
+		width: 1000px;
+	}
+
+	#locations {
+		width: 1000px;
+	}
+}
